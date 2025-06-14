@@ -26,9 +26,6 @@ int main() {
         return 0;
 }
 
-
-
-
 float distance(Point a, Point b) {
        float x_s = a.x - b.x;
        float y_s = a.y - b.y;
@@ -39,8 +36,7 @@ float distance(Point a, Point b) {
 }
 
 void rotRLine(Line * t) {
-
-        
+ 
         int holder;
         holder = t->a.x;
         t->a.x = t->a.y;
@@ -62,5 +58,4 @@ void scanLine(Line * t) {
 
 void printLine(Line t) {
         printf("%d %d %d %d %.3f", t.a.x, t.a.y, t.b.x, t.b.y, t.len);
-
 }

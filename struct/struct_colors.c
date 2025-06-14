@@ -82,8 +82,7 @@ Color convertToRGB(unsigned long long value)
 
 void printHTML(Color value)
 {
-	printf("2%X", value.red);
-	
+	printf("2%X", value.red);	
 	printf("2%X", value.green);
 	printf("2%X\n", value.blue);
 }
